@@ -170,8 +170,8 @@
 </div>
 </div>
 <hr>
-   <!-- FOOTER -->
-   <footer class="container-fluid w-100 py-4 flex-shrink-0 bg-primary-subtle">
+  <!-- FOOTER -->
+  <footer class="container-fluid w-100 py-4 flex-shrink-0 bg-primary-subtle">
     <div class="container py-4">
         <div class="row gy-3 gx-3">
             <div class="col-lg-4 col-md-4">
@@ -227,8 +227,25 @@
             <div>
               <label for="Newsletter" class="form-label">Subscribe To Our Newsletter</label>
               <input type="text" class="form-control" Placeholder="Enter Your Email">
-              <button class="btn btn-primary fa fa-paper-plane mt-3">  Subscribe</button>
+              <button class="btn btn-primary fa fa-paper-plane mt-3" data-bs-toggle="modal" id="exampleModalLabel2" data-bs-target="#exampleModal2">  Subscribe</button>
               <button class="btn btn-light fa fa-donate mt-3"><a href="/MP1/pages/donate.html" class="text-decoration-none"> Be A Donor</a>  </button>
+              
+              <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel2"> Subscribe </h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      Please enter your email on the white box. Thank you
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      
+                      
+                    </div>
+                  </div>
             </div>
           </div>
         </div>
@@ -240,6 +257,7 @@
       </div>
     </div>
 </footer>
+  
 
 </div>
 </body>
