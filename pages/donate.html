@@ -16,6 +16,7 @@
   <link rel="stylesheet" href="https://cdn.materialdesignicons.com/4.8.95/css/materialdesignicons.min.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="/MP1/assets/css/login.css">
+  
 </head>
 <title>Signup - ProtectOurKids! </title>
 <body class="bg-primary-subtle">
@@ -72,33 +73,34 @@
       <div class="container">
         <div class="card login-card mt-4 mb-4">
           <div class="row no-gutters">
-            <div class="col-md-4">
+            <div class="col-md-5">
                 <img src="https://nationaltoday.com/wp-content/uploads/2022/09/4568180-min-1200x834.jpg" alt="login" class="login-card-img">
               </div>
-            <div class="col-md-8 align-content-between">
+            <div class="col-md-7 align-content-between">
               <div class="card-body">
                 <div class="brand-wrapper">
-                  <a class="navbar-brand text-warning link-dark align-content-between" href="#"><b><h1>ProtectOurKids!</h1></b></a>
+                  <a class="navbar-brand text-primary link-dark align-content-between" href="#"><b><h1>Donation Form</h1></b></a>
                 </div>
-                <p class="login-card-description">Donation Form</p>
-                <form action="#!">
+            
+                <form action="/action_page.php" class="was-validated">
                     <div class="form-group">
-                        <label for="validationTooltip01" class="form-label col-md-4">Firstname </label>
-                            <input type="text" class="form-control col-md-4" maxlength="100" id="validationTooltip01" required>
+                        <label for="validationTooltip01" class="form-label fa fa-user">Fullname </label>
+                            <input type="text" class="form-control col" maxlength="100" id="validationTooltip01" required>
                             <div class="valid-feedback">Valid.</div>
                             <div class="invalid-feedback">Please fill out this field.</div>
                            
-                                <label for="validationTooltip02" class="form-label col-md-4 ">Lastname </label>
-                                    <input type="text" class="form-control col-md-4" maxlength="100" id="validationTooltip02" required>
+                                <label for="validationTooltip02" class="form-label fa fa-address-book ">Address</label>
+                                    <input type="text" class="form-control" maxlength="100" id="validationTooltip02" required>
                                     <div class="valid-feedback">Valid.</div>
                                     <div class="invalid-feedback">Please fill out this field.</div>
                                     </div>
                                 <div class="form-group">
-                                        <label for="validationTooltip03" class="form-label">Phone number </label>
+                                        <label for="validationTooltip03" class="form-label fa fa-mobile-phone">Phone number </label>
                                             <input type="text" class="form-control" maxlength="10" id="validationTooltip03" required>
                                             <div class="valid-feedback">Valid.</div>
                                             <div class="invalid-feedback">Please fill out this field.</div>
                                             </div>
+
                                             <div class="form-group">
                                                 <label for="validationTooltip04" class="form-label">Complete Address</label>
                                                     <input type="text" class="form-control" maxlength="1000" id="validationTooltip04" required>
@@ -117,20 +119,14 @@
                                                                     <div class="valid-feedback">Valid.</div>
                                                                     <div class="invalid-feedback">Please fill out this field.</div>
                                                                     </div>
-                                                                    <div class="form-check">
-                                                                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                                                                        <label class="form-check-label" for="flexRadioDefault1">
-                                                                          Monthly
-                                                                        </label></div>
-                                                                        <div class="form-check">
-                                                                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                                                                            <label class="form-check-label" for="flexRadioDefault1">
-                                                                              Yearly
-                                                                            </label></div>
-                    <div class="form-group mb-4">
-                      <label for="password" class="sr-only">Password</label>
-                      <input type="password" name="password" id="password" class="form-control" placeholder="***********">
-                    </div>
+                                                                    <div class="form-group">
+                                                                        <label for="validationTooltip06" class="form-label">Payment Method</label>
+                                                                            <input type="text" class="form-control" maxlength="10000" id="validationTooltip06" required>
+                                                                            <div class="valid-feedback">Valid.</div>
+                                                                            <div class="invalid-feedback">Please fill out this field.</div>
+                                                                            </div>
+                                                                    
+                   
                     <a href="index.html"><input name="login" id="login" class="btn btn-block bg-primary login-btn mb-4" type="button" value="submit"> </a>
                   </form>
                   
