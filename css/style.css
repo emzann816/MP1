@@ -100,19 +100,3 @@ svg {
 	text-shadow: 1px 1px rgb(75, 71, 71);
 	
 }
-.containers {
-	position: relative;
-	max-width: 800px;
-	margin: 0 auto;
-  }
-  
-  .containers img {vertical-align: middle;}
-  
-  .containers .content {
-	position: absolute;
-	bottom: 0;
-	background: rgb(0, 0, 0); /* Fallback color */
-	background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
-	color: #f1f1f1;
-	width: 100%;
-	padding: 20px;
