@@ -91,6 +91,6 @@ svg {
 	
 }
 .text-shadow {
-	text-shadow: 2px 2px black;
-	font-size: 15px;
+	text-shadow: 2px 2px rgb(75, 71, 71);
+	font-size: 18px;
 }
