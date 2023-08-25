@@ -102,12 +102,12 @@ svg {
 }
 .container {
 	position: relative;
-	max-width: 800px; /* Maximum width */
+	max-width: 100%; /* Maximum width */
 	margin: 0 auto; /* Center it */
   }
-  .container img {vertical-align: middle;}
+  .containers img {vertical-align: middle;}
   
-  .containter .content {
+  .containters .content {
 	position: absolute; /* Position the background text */
 	bottom: 0; /* At the bottom. Use top:0 to append it to the top */
 	background: rgb(0, 0, 0); /* Fallback color */
