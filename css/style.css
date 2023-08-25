@@ -100,19 +100,19 @@ svg {
 	text-shadow: 1px 1px rgb(75, 71, 71);
 	
 }
-.container {
+.containers {
 	position: relative;
-	max-width: 100%; /* Maximum width */
-	margin: 0 auto; /* Center it */
+	max-width: 800px;
+	margin: 0 auto;
   }
+  
   .containers img {vertical-align: middle;}
   
-  .containters .content {
-	position: absolute; /* Position the background text */
-	bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  .containers .content {
+	position: absolute;
+	bottom: 0;
 	background: rgb(0, 0, 0); /* Fallback color */
 	background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
-	color: #f1f1f1; /* Grey text */
-	width: 100%; /* Full width */
-	padding: 20px; /* Some padding */
-  }
+	color: #f1f1f1;
+	width: 100%;
+	padding: 20px;
