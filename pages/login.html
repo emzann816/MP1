@@ -83,13 +83,13 @@
                 <form action="/action_page.php" class="was-validated">
                     <div class="form-group">
                       <label for="validationTooltip01" class="form-label">Username </label>
-                          <input type="text" class="form-control" id="validationTooltip01" required>
+                          <input type="text" class="form-control" maxlength="10" id="validationTooltip01" required>
                           <div class="valid-feedback">Valid.</div>
                           <div class="invalid-feedback">Please fill out this field.</div>
                           </div>
                     <div class="form-group">
                       <label for="password" id="inputGroupPrepend2" class="form-label">Password</label>
-                      <input type="password" class="form-control" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"  id="validationDefaultPasword"  aria-describedby="inputGroupPrepend2" required>
+                      <input type="password" maxlength="8" class="form-control" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"  id="validationDefaultPasword"  aria-describedby="inputGroupPrepend2" required>
                       <div class="valid-feedback">Valid.</div>
                       <div class="invalid-feedback">Please fill out this field.</div>
                     </div>
